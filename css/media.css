@@ -1,0 +1,257 @@
+/* Media Queries
+ */
+@media (max-width: 1160px) {
+    .full-event .side-date {
+        color: #000; width: auto; left: 0px; text-align: left;
+        top: 10px; background: rgba( 255,255,255,0.66 ); padding: 5px; }
+    .full-event.no-image .side-date {
+        display: none !important; }
+    .full-event .side-data .day-name,
+    .full-event .side-data .time {
+        color: #222; }
+}
+
+/* Small Screenz */
+@media only screen and (max-width: 980px) {
+    /* Headings */
+    h1 {
+        font-size: 1.5em; }
+    h2 {
+        font-size: 1.25em; }
+    h3 {
+        font-size: 1.0em; }
+
+    /* Header and wrapping */
+    #header-wrap {
+        border-bottom: 1px solid #ccc; height: 50px;
+        padding: 0; position: relative; width: auto; }
+
+        #header-wrap #logo img.large,
+        #header-wrap #photo-stream {
+            display: none;  }
+
+        #header-wrap #logo img.small {
+            display: block; float: left; left: 8px;
+            position: relative; top: 5px; }
+
+    header {
+        padding: 0; height: auto; width: auto; }
+
+        #social-icons {
+            float: right; padding-right: 10px;
+            position: relative; top: 12px; }
+
+            .social-icons a {
+                font-size: 24px; }
+            #social-icons a:first-child {
+                display: block; float: left; font-size: 11px;
+                line-height: 1.0em; padding: 4px 5px 0 0;
+                text-align: right; width: 60px; }
+
+        .mobile-search-button,
+        .mobile-menu-button {
+            border-left: 1px solid #ccc; display: block;
+            float: right; font-size: 24px;
+            padding: 11px 9px 10px;
+            text-decoration: none; }
+
+        .mobile-search-button:hover,
+        .mobile-menu-button:hover {
+            background: #eee; }
+
+    /* Drop down nav */
+    nav {
+        display: none; }
+
+    #page-nav-wrap {
+        display: none; }
+
+    /* Home page film roll */
+    #hero {
+        margin-bottom: 42px; }
+
+    #hero-carousel,
+    .film_roll_wrapper {
+        height: 320px !important; width: auto; }
+
+        .hero-carousel div.slide,
+        .hero-carousel div.slide img {
+            height: 320px !important;
+            width: 420px !important; }
+
+        .hero-carousel .blurb h1 {
+            font-size: 20px; line-height: 20px;
+            max-width: 390px; padding: 10px; }
+        .hero-carousel .blurb p {
+            display: none; }
+
+    #hero-nav {
+        position: absolute; top: 325px; width: 100%;
+        box-sizing: border-box; }
+
+        #hero-nav #carousel-prev {
+            float: left; position: relative; right: -5px; }
+        #hero-nav #carousel-next {
+            float: right; position: relative; left: -5px; }
+
+    .film_roll_pager {
+        position: absolute; top: 333px; z-index: 3;
+        left: 50%; margin-left: -90px; }
+
+        .film_roll_pager a {
+            width: 10px !important;
+            height: 10px !important;
+            border-radius: 10px !important;
+            margin: 0 5px !important; }
+
+    /* Home page vignettes */
+    #vignettes {
+        width: 100%; border-top: 1px solid #eee;
+        padding-top: 15px; }
+
+        #vignettes h3.lead {
+            display: block !important; }
+
+        #vignettes .row {
+            text-align: center; margin-bottom: 0; }
+
+        #vignettes .row .block {
+            margin: 0 auto 20px; padding: 0 0 20px;
+            width: 320px; float: none;
+            border-bottom: 1px solid #eee; }
+
+        #vignettes .row .block:last-child {
+            margin: 0 auto 20px; }
+
+        #vignettes .row .block.heptagon {
+            display: none; }
+
+        #vignettes .block .img-wrap img {
+            max-width: 320px; }
+
+        #vignettes .row .block .categories,
+        #vignettes .row .block .title,
+        #vignettes .row .block .date,
+        #vignettes .row .block .description {
+            text-align: left; }
+
+        #vignettes .row:nth-child(2) .block:nth-child(2) {
+            border-bottom: none !important; }
+
+    /* Regular site pages */
+    .page {
+        width: auto; margin: 8px 8px 30px; }
+
+    /* Events pages */
+    #upcoming {
+        width: 100%; float: none; margin-bottom: 30px; }
+
+        .full-event {
+            margin-right: 0; }
+        .full-event .banner-wrap {
+            height: 175px; }
+
+    #sidebar {
+        width: 100%; float: none; margin-bottom: 30px; }
+
+        #sidebar .calendar-wrap {
+            padding: 0 !important; }
+
+        #sidebar .exhibitions-wrap {
+            padding: 0 !important; }
+
+    /* Event archives */
+    #archives-goto-search {
+        display: none; }
+
+    /* Post page */
+    #post.page #banner-wrap {
+        width: 100%; height: 175px; }
+
+    /* Performance booking page */
+    .page.booking .w47p {
+        width: 100%; margin-bottom: 30px; float: none; }
+
+    /* Mission */
+    .page.mission img {
+        width: 320px; margin: 0 auto 20px;
+        display: block; float: none; }
+
+    /* Press page */
+    .page.press .w40p {
+        width: 100%; float: none; }
+    .page.press .w60p {
+        width: 100%; float: none; }
+    .page.press .social-icons {
+        margin: -15px 0 30px; }
+    .page.press iframe {
+        width: 100%; }
+    .archive-event {
+        float: none; margin: 0 0 20px !important;
+        width: 100%; }
+    .archive-event:last-child {
+        margin-bottom: 0 !important; }
+    .archive-event .banner-wrap {
+        height: 150px; }
+
+    /* Footer and wrapping */
+    #footer-wrap {
+        padding: 0; }
+
+        #footer-wrap footer {
+            padding: 5px 8px 10px; position: relative;
+            width: auto; }
+
+        #footer-wrap .left {
+            float: left; padding-right: 175px; }
+
+        #footer-wrap .right {
+            float: right; position: absolute;
+            right: 8px; top: 15px; }
+}
+
+@media only screen and (max-width: 680px) {
+    #columns .column {
+        width: 100%; float: none; }
+    #final-overlay .header-wrap .button {
+        display: inline-block; margin-top: 10px; }
+}
+
+@media only screen and (max-width: 400px) {
+    #hero-carousel,
+    .film_roll_wrapper {
+        height: 220px !important; width: auto; }
+
+        .hero-carousel div.slide,
+        .hero-carousel div.slide img {
+            height: 220px !important;
+            width: 320px !important; }
+
+        .hero-carousel .blurb h1 {
+            font-size: 20px; line-height: 20px;
+            max-width: 290px; padding: 10px; }
+        .hero-carousel .blurb p {
+            display: none; }
+
+    #hero-nav {
+        position: absolute; top: 225px; width: 100%;
+        box-sizing: border-box; }
+
+        #hero-nav #carousel-prev {
+            float: left; position: relative; right: -5px; }
+        #hero-nav #carousel-next {
+            float: right; position: relative; left: -5px; }
+
+    .film_roll_pager {
+        top: 233px; }
+
+    blockquote {
+        margin: 0 2em;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    blockquote {
+        margin: 0;
+    }
+}

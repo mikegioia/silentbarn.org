@@ -1,0 +1,29 @@
+/* Modals
+*/
+
+body.with-modal {
+    overflow: hidden; }
+
+#modal-overlay {
+    position: fixed; z-index: 99;
+    top: 0; left: 0; height: 100%;
+    width: 100%; display: none;
+    overflow-y: auto;
+    background: rgba( 0, 0, 0, 0.6 ); }
+
+#modal-container {
+    position: absolute; margin-bottom: 40px; 
+    z-index: 100; width: 920px; padding: 20px;
+    background: #f1f1f1; border-radius: 3px;
+    box-shadow: 0 0 25px rgba( 0, 0, 0, 0.5 ); }
+
+#modal-close-wrap {
+    width: 960px; position: absolute;
+    z-index: 101; margin-left: -495px;
+    text-align: right; left: 50%;
+    top: 55px; }
+
+#modal-close {
+    font-size: 32px; color: #999;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #fff; }

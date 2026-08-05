@@ -1,0 +1,44 @@
+/* Buttons
+ */
+a.button,
+input.button {
+    border-radius: 3px; border-top-width: 0; border-left-width: 0;
+    border-right-width: 0; border-bottom-width: 2px; border-style: solid;
+    padding: 5px 10px; cursor: pointer; text-decoration: none; }
+.button.fontsize-18 {
+    padding: 8px 14px 7px 14px; border-radius: 4px; }
+.button.fontsize-16 {
+    padding: 7px 12px 6px 12px; }
+
+/* Blue */
+.button.blue {
+    background: #007db6; border-bottom-color: #00628f; color: #fff; }
+.button.blue:hover {
+    background: #00628f; border-bottom-color: #00405b; }
+/* Green */
+.button.green {
+    background: #4da74d; border-bottom-color: #2b8c2b; color: #fff; }
+.button.green:hover {
+    background: #2b8c2b; border-bottom-color: #166616; }
+/* Red */
+.button.red {
+    background: #af362b; border-bottom-color: #932820; color: #fff; }
+.button.red:hover {
+    background: #932820; border-bottom-color: #6b1a14; }
+/* Gray */
+.button.gray {
+    background: #ccc; border-bottom-color: #999; color: #444; }
+.button.gray:hover {
+    background: #bbb; border-bottom-color: #888; color: #333; }
+/* Black */
+.button.black {
+    background: #333; border-bottom-color: #111; color: #eee; }
+.button.black:hover {
+    background: #111; border-bottom-color: #000; color: #fff; }
+
+/* Links
+ */
+a.hover-underline {
+    text-decoration: none; }
+a.hover-underline:hover {
+    text-decoration: underline; }

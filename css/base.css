@@ -1,0 +1,40 @@
+/* Elements
+ */
+body {
+    font-family: Asap, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-size: 16px; margin: 0; padding: 0; color: #555; }
+h1, h2, h3 {
+    font-weight: normal; margin: 0 0 10px; }
+p {
+    line-height: 1.5em; }
+a {
+    color: #333; }
+a:hover {
+    color: #6905cd; }
+fieldset {
+    border: none; padding: 15px; background: #f1f1f1; border-radius: 2px;
+    box-shadow: 0px 1px 2px #aaa; }
+fieldset legend h2 {
+    font-family: 'Share Tech Mono', monospace; text-transform: uppercase;
+    font-size: 18px; padding: 5px 10px; background: #e1e1e1; }
+blockquote {
+    margin: 0 2em; border-left: 4px solid #e1e1e1;
+    padding-left: 1em; }
+blockquote blockquote {
+    margin: 0; border: none; padding: 0; }
+
+/* Base
+ */
+.page {
+    margin: 25px auto 60px; width: 960px; }
+.error-page {
+    margin: 25px auto 120px; width: 960px; }
+.page h3 {
+    font-weight: bold; margin-bottom: 10px;
+    padding: 0; }
+.page.static h4 {
+    font-weight: normal; margin: 0 0 10px; }
+.page.static h4 i {
+    position: relative; top: 1px; margin-right: 5px; }
+.page.static p {
+    margin: 0 0 20px; padding: 0; }

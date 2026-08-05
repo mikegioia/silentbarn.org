@@ -1,0 +1,113 @@
+/* Carousel
+ */
+#hero {
+    position: relative; }
+#hero-carousel {
+    height: 440px; overflow: hidden; }
+.hero-carousel div.slide {
+    height: 420px; overflow: hidden; position: relative;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out; }
+.hero-carousel div.slide img {
+    min-width: 100%; min-height: 100%; }
+.hero-carousel div.slide a.link-overlay {
+    position: absolute; top: 0; bottom: 0; left: 0; right: 0;
+    z-index: 1; }
+.hero-carousel .film_roll_child {
+    opacity: 0.5; }
+.hero-carousel .film_roll_child.active {
+    opacity: 1; }
+.hero-carousel .blurb {
+    position: absolute; left: 5px; top: 20px; bottom: 0; }
+.hero-carousel .blurb h1 {
+    max-width: 650px; line-height: 38px; font-size: 36px;
+    background: rgba( 0, 0, 0, 0.6 ); padding: 10px 20px 10px 15px;
+    float: left; }
+.hero-carousel .blurb h1 span {
+    color: #fff; font-family: 'Share Tech Mono', monospace;
+    text-transform: uppercase; }
+.hero-carousel .blurb p {
+    max-width: 600px; background: rgba( 0, 0, 0, 0.6 );
+    padding: 10px 20px 10px 15px; float: left; font-size: 18px;
+    position: absolute; bottom: 40px; color: #fff; }
+#hero-nav {
+    width: 960px; margin: 0 auto; z-index: 2; position: relative;
+    top: -52px; font-size: 18px; text-align: right; }
+#hero-nav a {
+    text-decoration: none; display: block; padding: 5px 20px;
+    background: rgba( 0, 0, 0, 0.6 ); color: #fff; float: right; }
+#hero-nav a:hover {
+    background: rgba( 0, 0, 0, 0.9 ); }
+
+/* Vignettes
+ */
+#vignettes {
+    width: 960px; margin: 0 auto; }
+#vignettes .row {
+    margin-bottom: 40px; }
+#vignettes .row:last-child {
+    margin: 0; }
+#vignettes .block {
+    float: left; width: 310px; margin-right: 15px; }
+#vignettes .block .img-wrap {
+    overflow: hidden; height: 240px; }
+#vignettes .block .img-wrap a {
+    display: block; }
+#vignettes .block .img-wrap img {
+    min-height: 240px; min-width: 310px; }
+#vignettes .block.heptagon {
+    min-height: 488px; position:relative; background: none !important; }
+#vignettes .block.heptagon img {
+    position: absolute; z-index: 1; bottom: 0; }
+#vignettes .block.heptagon h2 {
+    font-size: 14px; margin: 0 0 20px; z-index: 2; text-align: center;
+    text-transform: uppercase; position: relative; }
+
+#vignettes .block.heptagon .event {
+    position: relative; z-index: 2; }
+#vignettes .block.heptagon .event h3 {
+    font-size: 16px; line-height: 22px; margin-bottom: 10px;
+    text-align: center; padding: 0 5px; }
+/*#vignettes .block.heptagon .event span:before,
+#vignettes .block.heptagon .event span::after { content: "\0000a0"; }*/
+#vignettes .block.heptagon .event a {
+    padding: 2px 0; background: rgba( 105, 5, 205, 0.2 );
+    color: #333; }
+
+#vignettes .row .block:last-child {
+    margin: 0; }
+#vignettes .block .categories span {
+    color: #a8a030; font-size: 14px; text-transform: uppercase; }
+#vignettes .block h3.title {
+    margin: 5px 0; }
+#vignettes .block .date {
+    font-size: 12px; text-transform: uppercase; color: #999;
+    margin-bottom: 10px; }
+#vignettes .block .description {
+    font-size: 14px; line-height: 20px; color: #666; }
+
+/* Final Overlay
+ */
+#final-overlay {
+    position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+    background: #fff; z-index: 1000; font-family: 'Lora', serif;
+    overflow-y: auto; }
+#final-overlay .header-wrap {
+    width: 100%; padding: 8px 0 12px; background: #f1f1f1; }
+#final-overlay .header-wrap span {
+    display: inline-block; position: relative; top: 2px; }
+#final-overlay h1 {
+    color: #111; font-size: 28px; font-weight: bold; }
+#final-overlay .content-wrap {
+    margin: 0 auto; width: 80%; max-width: 720px; }
+#final-overlay .justified-text {
+    text-align: justify; text-justify: inter-word;
+    color: #444; font-size: 18px; line-height: 26px; }
+#final-overlay figure {
+    margin: 0; }
+#final-overlay figure img {
+    max-width: 100%; }
+#final-overlay iframe {
+    margin: 0 auto; display: block; max-width: 100%; }

@@ -1,0 +1,14 @@
+/* Posts
+ */
+#post.page #body {
+    line-height: 150%; word-wrap: break-word; }
+#post span.price {
+    margin-right: 5px; background: #ddd; padding: 2px 5px; }
+div.external-url a {
+    vertical-align: middle; }
+div.external-url i.fa-facebook-square {
+    color: #3b5998; vertical-align: middle; }
+#post .column {
+    width: 48%; }
+#post #banner {
+    width: 100%; margin-top: 20px; }

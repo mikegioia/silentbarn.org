@@ -1,0 +1,207 @@
+/* Header
+ */
+body.sticky {
+    padding-top: 180px; }
+body.sticky.pagenav {
+    padding-top: 196px; }
+#header-wrap {
+    width: 100%; border-bottom: 1px solid #eee; margin-bottom: 10px;
+    height: 169px; }
+body.sticky #header-wrap {
+    height: 50px; position: fixed; top: 0; z-index: 10;
+    background: #fff; border-bottom: 1px solid #ccc; }
+body.sticky.pagenav #header-wrap {
+    border-bottom: 1px solid #eee; }
+header {
+    width: 960px; margin: 0 auto; padding: 5px 0; position: relative;
+    height: 159px; }
+body.sticky #header-wrap header {
+    display: block; height: 40px; }
+#photo-stream {
+    position: relative; top: 5px; height: 80px; float: right; }
+#photo-stream a {
+    text-decoration: none; display: inline-block; margin-left: 2px; }
+#social-icons {
+    position: absolute; top: 100px; right: 0; }
+#social-icons a {
+    margin-left: 2px; text-decoration: none; }
+.social-icons a {
+    text-decoration: none; }
+.social-icons a.facebook {
+    color: #3b5998; }
+.social-icons a.twitter {
+    color: #00aced; }
+.social-icons a.tumblr {
+    color: #32506d; }
+.social-icons a.instagram {
+    color: #517fa4; }
+.social-icons a.youtube {
+    color: #bb0000; }   
+body.sticky #header-wrap #photo-stream,
+body.sticky #header-wrap #social-icons,
+body.sticky #header-wrap #announcement,
+body.sticky #header-wrap #support-barn {
+    display: none; }
+body.sticky #header-wrap #logo {
+    height: 40px; }
+#header-wrap #logo img.small {
+    position: absolute; top: -50px; left: 0; }
+#header-wrap #logo img.large {
+    position: absolute; bottom: 8px; }
+body.shiftlogo #header-wrap header #logo img.large {
+    bottom: 60px; }
+body.shiftlogo #header-wrap header #logo img.small {
+    top: 5px; }
+#header-wrap header #logo a {
+    text-decoration: none; }
+#header-wrap #announcement {
+    position: absolute; left: 200px; top: 20px; }
+#header-wrap #announcement h3 {
+    background: yellow; font-style: italic; }
+#header-wrap #support-barn {
+    float: right; margin-right: 15px; position: relative;
+    top: 5px; }
+#header-wrap #support-barn .message {
+    margin-bottom: 3px; }
+#header-wrap #support-barn a {
+    padding: 0.15em 0.5em; float: right; }
+
+/* Nav
+ */
+header nav {
+    position: absolute; bottom: 5px; right: 0; z-index: 3; }
+body.sticky header nav {
+    bottom: 10px; }
+header nav a {
+    font-family: 'Share Tech Mono', monospace; text-transform: uppercase;
+    font-size: 18px; padding: 5px 10px; }
+ul#menu {
+    float: left; }
+ul#menu > li > a {
+    margin-left: 15px; }
+ul#menu,
+ul#menu ul.sub-menu {
+    padding: 0; margin: 0; background: #fff; }
+ul#menu ul.sub-menu {
+    box-shadow: 1px 1px 0 #ccc; border-radius: 0 2px 2px 2px; }
+ul#menu ul.sub-menu > li:first-child {
+    margin-top: 5px; }
+ul#menu li {
+    list-style-type: none; display: inline-block; }
+ul#menu ul.sub-menu li {
+    list-style-type: none; display: block; }
+ul#menu li a,
+ul#menu li ul.sub-menu li a {
+    text-decoration: none; color: #555; display: block; }
+ul#menu a:hover {
+    color: #6905cd !important; }
+ul#menu li:hover a {
+    background-color: #e9e9e9; }
+ul#menu li {
+    position: relative; }
+ul#menu li ul.sub-menu {
+    display: none; position: absolute; top: 30px; left: 15px;
+    width: 180px; background-color: #e9e9e9; }
+ul#menu li:hover ul.sub-menu {
+    display: block; }
+
+/* Mobile Nav
+ */
+#mobile-nav {
+    background: #fff; font-size: 14px; line-height: 14px; }
+#mobile-nav ul {
+    margin: 0; padding: 0; list-style-position: inside;
+    list-style-type: none; }
+#mobile-nav ul li {
+    padding: 8px 5px 0 20px; border-bottom: 1px solid #eee; }
+#mobile-nav ul ul li:before {
+    font-family: 'FontAwesome';
+    content: '\f054';
+    color: #ccc;
+    margin:0 5px 0 -15px;
+    font-size: 12px; }
+#mobile-nav ul li:before {
+    font-family: 'FontAwesome';
+    content: '\f078';
+    color: #ccc;
+    margin:0 5px 0 -15px;
+    font-size: 12px; }
+#mobile-nav .sub-menu {
+    margin-top: 8px; border-top: 1px solid #eee; }
+#mobile-nav .sub-menu li {
+    padding: 8px 5px 8px 25px; }
+#mobile-nav ul ul li:last-child {
+    border-bottom: none; }
+
+/* Page Nav
+ */
+#page-nav-wrap {
+    width: 100%; }
+body.sticky #page-nav-wrap {
+    height: 20px; position: fixed; top: 51px; z-index: 9;
+    background: #fff; border-bottom: 1px solid #ccc; padding-top: 5px; }
+.page-nav {
+    font-size: 13px; width: 960px; margin: 0 auto; }
+.page-nav a {
+    margin-right: 15px; text-decoration: none; color: #777; }
+.page-nav a.on {
+    color: #6905cd; }
+
+/* Search
+ */
+form#search {
+    float: right; margin-left: 15px; position: relative; top: 1px; }
+form#search input {
+    border-color: #d3d3d3 #d3d3d3 #ddd; border-image: none;
+    border-style: solid; border-width: 1px;
+    box-shadow: 0 1px 3px #d3d3d3 inset; padding: 3px 24px 4px 5px;
+    width: 120px; }
+form#search input:focus {
+    width: 200px; }
+form#search a {
+    position: absolute; right: -4px; text-decoration: none;
+    top: -1px; color: #999; }
+
+/* Messages
+ */
+#notif-messages {
+    margin: 25px auto 0; width: 960px;
+    padding: 0 25px; }
+#notif-messages .message {
+    margin-bottom: 10px; padding: 10px; color: #fff;
+    border-radius: 3px; }
+#notif-messages .message.success {
+    background: #2ba02b; }
+#notif-messages .message.error {
+    background: #af362b; }
+#notif-messages .message.warning {
+    background: #d6a70e; }
+#notif-messages .message.info {
+    background: #007db6; }
+
+/* General UI
+ */
+.announcement {
+    padding: 20px; background: #F4EFA6; box-shadow: 8px 8px 0 #e1e1e1; }
+
+/* Footer
+ */
+#footer-wrap {
+    padding: 0 0 20px; }
+#footer-wrap footer {
+    width: 960px; margin: 0 auto; border-top: 4px solid #6905cd;
+    padding: 5px 0 0; }
+#footer-wrap .left {
+    float: left; }
+#footer-wrap .name {
+    color: #6905cd; font-size: 32px; font-variant: small-caps; }
+#footer-wrap .address {
+    color: #666; font-size: 13px; margin: 5px 0; }
+#footer-wrap .legal {
+    color: #aaa; font-size: 11px; font-style: italic; }
+#footer-wrap .links {
+    margin-top: 5px; }
+#footer-wrap .links a {
+    color: #999; font-size: 11px; }
+#footer-wrap .right {
+    float: right; }

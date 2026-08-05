@@ -1,0 +1,22 @@
+/* Typeahead dropdpwn
+ */
+.twitter-typeahead {
+    display: block; width: 100%; }
+.tt-dropdown-menu {
+    min-width: 150px; border-color: #d3d3d3 #d3d3d3 #bbb;
+    border-image: none; border-style: solid; border-width: 1px;
+    box-shadow: 0 1px 3px #d3d3d3; color: #333;
+    border-radius: 2px; background: #fff; position: static !important;
+    width: 95%; }
+.tt-suggestion {
+    padding: 5px 10px; margin: 0; cursor: pointer; }
+.tt-suggestion:first-child {
+    border-radius: 2px 2px 0 0; }
+.tt-suggestion:last-child {
+    border-radius: 0 0 2px 2px; }
+.tt-suggestion.tt-cursor {
+    background-color: #007db6; color: #fff; }
+.tt-suggestion p {
+    padding: 0; margin: 0; }
+.tt-hint {
+    color: #aaa !important; }

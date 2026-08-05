@@ -1,0 +1,12 @@
+/* Forms
+ */
+fieldset label {
+    display: block; margin: 0 0 5px; font-size: 15px; color: #777;
+    padding: 0 0 0 2px; }
+fieldset input[type="text"],
+fieldset input[type="password"],
+fieldset textarea {
+    padding: 8px 10px; font-size: 16px; background-color: #fff;
+    border-color: #d3d3d3 #d3d3d3 #bbb; border-image: none;
+    border-style: solid; border-width: 1px; box-shadow: 0 1px 3px #d3d3d3;
+    color: #333; border-radius: 2px; }
